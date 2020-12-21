@@ -1,0 +1,74 @@
+.populartours{
+    display: flex;
+}
+.populartours p{
+    font-size: 50px;
+    text-align: center;
+    margin-left: 30%;
+}
+.pop-tour{
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+}
+.pop-tour > img{
+    width: 250px;
+    height: 300px;
+}
+.pop-tour div{
+    width: 250px;
+    height: 400px;
+    margin-left: 50px;
+    text-align: left;
+    float: left;
+    margin-right: 50px;
+}
+.card1 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    border-radius: 5px;
+    margin: 10px;
+  }
+.card1:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    background-color: #4242e6;
+    
+  }
+.card1 > img {
+    border-radius: 8px 8px 0 0;
+  }
+.container1 {
+    display: inline-block;
+    position: relative;
+    top: 50px;
+    left: -30px;
+  }
+  .Bk-btn1{
+      width: 100px;
+      height: 50px;
+      border: 1px solid#4242e6;
+      border-radius: 10px;
+      margin-left: 50px;
+      margin-bottom: 25px;
+      background-color: #ffffff;
+  }
+  .viewall1{
+      display: flex;
+      margin-left: 30%;
+  }
+  .vw-btn1{
+    border-radius: 10px;
+      height: 50px;
+      width: 125px;
+      border: 1px solid #4242e6;
+      background-color: #4242e6;
+      margin-top: 30px;
+      margin-left: 200px;
+    }
+    .vw-btn1 a{
+        color: #ffffff;
+    }
